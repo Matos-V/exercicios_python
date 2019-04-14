@@ -1,0 +1,5 @@
+nome = str(input('Digite um nome: ')).strip()
+nome2 = nome.lower()
+print('esse nome tem {} letras "a"'.format(nome2.count('a')))
+print('ela aparece a primeira vez na posição {}'.format(nome2.find('a')+1))
+print('ela aparece pela ultima vez na posição {}'.format(nome2.rfind('a')+1))
