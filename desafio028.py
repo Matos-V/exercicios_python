@@ -1,11 +1,9 @@
 import random
 
-nome1 = str(input('nome do primeiro aluno: '))
-nome2 = str(input('nome do segundo aluno: '))
-nome3 = str(input('nome do terceiro aluno: '))
-nome4 = str(input('nome do quarto aluno: '))
-lista = [nome1,nome2,nome3,nome4]
-random.shuffle(lista)
-n = random.randint()
-#print('O aluno sorteado para apagar o quadro foi {}'.format(n))
-print(lista)
+num = random.randint(0,5)
+num2 = int(input("digite um numero de 0 a 5: "))
+if num == num2:
+    print("Parabens, vc adivinhou o numero aleatório")
+else:
+    print("vc n acertou o numero aleatório")
+print(num)
