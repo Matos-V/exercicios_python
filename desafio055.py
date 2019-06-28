@@ -18,3 +18,4 @@ for x in range(1,6):
     if n < Pm:
         Pm = n
 print('Das 5 pessoas, a mais pesada tem {}kg e a mais leve tem {}kg'.format(PM,Pm))
+print('Valeu!')
